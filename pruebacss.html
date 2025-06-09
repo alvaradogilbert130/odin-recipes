@@ -1,0 +1,56 @@
+<div>Hello world</div>
+<div>Hello again</div>
+<p>Hi...</p>
+<div>Okay...</div>
+<style>
+    div {
+    color: red;
+    }
+    .titulo {
+        color:yellow;
+    }
+    .parrafo {
+        color:aqua
+    }
+    /*The id is unique, and this is expresed in the style section with # */
+    #item1 {
+        color: blueviolet;
+        background-color: bisque;
+    }
+    .principal .content {
+        color: brown;
+        background-color: aqua;
+    }
+    p{
+        color: #1100ff;
+    }
+    p{
+        color: rgba(100, 0, 127, 0.8);
+    }
+    *{
+        outline: 2px solid red;
+    }
+
+    /*This selector selects all divs inside of the .flex-container */
+    .flex-container div{
+        background: peachpuff;
+        border: 4px;
+        height: 200px;
+    }
+</style>
+<!--If don`t have a class into the div the style of the div will take the features established in style div -->
+<div class="titulo">Esto es una clase titulo</div>
+<div class="parrafo">Esto es una clase parrafo</div>
+<div id="item1">This is a unique item</div>
+
+<div class="principal">Hello world 1
+    <div class="content">Hello world 2
+        <div class="content">Hello world 3</div>
+    </div>
+</div>
+<div class="content"> Hello world 4</div>
+<div class="flex-container">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+</div>
